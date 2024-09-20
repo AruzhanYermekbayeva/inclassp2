@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Pet's profile</title>
+    <link rel="icon" href="favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fakosi's Profile</h1>
+        <h2>Such an adorable cat.</h2>
+    </header>
+    <section>
+        <h3>About Fakosi</h3>
+        <p>He is a little grey bundle of joy. 
+           He is only 3 years old, but dtill would rather sleep at home than go outside. 
+           his joys in life are eating, scratching furniture and lying down watching TV with a person .</p>
+    </section>
+    <section>
+        <h3>These are his top 5 favourite meals: </h3>
+        <ul>
+            <li>Chicken</li>
+            <li>Cooked eggs</li>
+            <li>Any jelly food for cats</li>
+            <li>Beef</li>
+            <li>Any kind of fish</li>
+        </ul>
+    </section>
+    <section>
+        <h3>That's him!</h3>
+        <img src="Fakosi.jpg" alt="His picture" width="300">
+    </section>
+    <section>
+        <h3>Fakosi's's favorite toys</h3>
+        <table border="3">
+            <tr>
+                <th>Toy</th>
+                <th>Type</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>Golden fish</td>
+                <td>Chew toy</td>
+                <td>★★★★★</td>
+            </tr>
+            <tr>
+                <td>Tennis Ball</td>
+                <td>A toy that is played with human</td>
+                <td>★★★★</td>
+            </tr>
+            <tr>
+                <td>Stuffed Squirrel</td>
+                <td>Plush toy</td>
+                <td>★★★★★</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h3>Leave your comment</h3>
+        <form action="/submit_comment" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="comment">Your Comment:</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <h4>Connect with me</h4>
+        <p>Follow me on instagram <a href="https://www.instagram.com/aruzha.hn/" target="_blank">Instagram</a>!</p>
+    </footer>
+</body>
+</html>
+
